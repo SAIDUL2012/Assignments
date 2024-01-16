@@ -1,0 +1,285 @@
+*{
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+}
+body{
+    margin:0px 40px 0px 35px;
+}
+/* Style for Navbar */
+.safe-section{
+    display:flex;
+    gap:15px;
+    margin-left:0px;
+    align-items: center;
+}
+.safe{
+    color:#131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.travel{
+    color:#FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav>ul>li{
+    list-style:none;
+
+}
+nav a{
+    text-decoration: none;
+   margin-right:20px;
+   color:#424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Style For Main Image */
+.main{
+    align-items:center;
+
+}
+.main-image{
+    position:relative;
+}
+.in-image{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    left:270px;
+    bottom:150px;
+    padding:20px;
+    background-color:rgba(255, 255, 255, 0.30);
+    border-radius:7px;
+    gap:24px;
+    padding:16px;
+}
+.box{
+    height:48px;
+    width:174px;
+    border-radius:8px;
+    border:none;
+}
+.btn-image{
+    background-color: #FF5400;
+    color:#FFFFFF;
+    border:none;
+    border-radius:8px;
+    padding:16px;
+}
+.first-section{
+    margin-top:80px;
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+}
+.our{
+    text-align: center;
+}
+/* style fot button */
+
+.btn-primary{
+    color: #FFF;
+    background-color: #FF5400;;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border:none;
+    border-radius:8px;
+    padding:14px 30px 14px 30px;
+}
+/* style for second section */
+
+.choose-your-destination{
+    text-align: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top:100px;
+}
+.paragraph{
+    text-align:center;
+    padding:10px 220px;
+  
+}
+/* section 1 style */
+.two-image{
+    display:flex;
+    margin-top:100px;
+    margin-bottom:20px;
+    gap:20px;
+    position:relative;
+}
+.p1{
+    position:absolute;
+    left:230px;
+    bottom:140px;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+.p2{
+    position:absolute;
+    left:840px;
+    bottom:140px;
+    color:white;
+    font-weight:bold;
+    font-size:30px;
+}
+
+.threeimage{
+    display:flex;
+    gap:20px;
+    position:relative;
+}
+.srilanka{
+position:absolute;
+font-size:30px;
+font-weight:bold;
+color:white;
+left:95px;
+bottom:100px;
+}
+.north-america{
+position:absolute;
+font-size:30px;
+font-weight:bold;
+color:white;
+left:550px;
+bottom:95px;
+}
+.kashmir{
+position:absolute;
+font-size:30px;
+font-weight:bold;
+color:white;
+left:950px;
+bottom:95px;
+}
+/* section 3 style */
+
+.section3{
+    display:flex;
+    margin-top:20px;
+    gap:20px;
+    position:relative;
+}
+.bangladesh{
+    position:absolute;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    left:160px;
+    bottom:95px;
+}
+.bandarban{
+    position:absolute;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    left:750px;
+    bottom:95px;
+}
+/* after section 3 */
+.heading2{
+text-align: center;
+margin-top:100px;
+}
+.paragraph2{
+text-align: center;
+padding:20px 180px;
+}
+/* three-cart style */
+.three-cart{
+    display: flex;
+    gap:40px;
+    align-items:center;
+ }
+ .cart1{
+    margin:30px;
+    background-color:rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    padding:12px;
+    
+ }
+ .cart2{
+    margin:30px;
+    background-color:rgba(41, 206, 246, 0.05);
+    border-radius: 16px;
+    padding:12px;
+ }
+ .cart3{
+    align-items: center;
+    margin:50px 290px 0px;
+    background-color:rgba(41, 206, 246, 0.05);
+    padding:15px;
+ }
+
+/* footer style */
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    margin-top:50px;
+}
+.fsafe{
+    color:#131318;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.ftravel{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.footer-description{
+    text-align: center;
+    padding:40px 50px 80px 50px
+    
+}
+footer{
+    background-color:rgba(19, 19, 24, 0.05);
+    height:502px;
+    border-radius:8px;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    gap:25px;
+    margin-bottom:100px;
+}
+.copyright{
+    text-align:center;
+    margin-top:150px;
+}
